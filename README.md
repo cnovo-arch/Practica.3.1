@@ -58,7 +58,7 @@ Mantén el servidor en ejecución mientras utilizas la tienda.
 
 ### 5.0. Obtención contenedor
 
-El contenedor está disponible en "doc", aunque descargarlo es sencillo si completas los siguientes pasos
+El contenedor está disponible en "Packages", aunque descargarlo es sencillo si completas los siguientes pasos
 
 ### 5.1. Construir la imagen
 
