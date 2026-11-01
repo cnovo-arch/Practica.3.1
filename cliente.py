@@ -6,7 +6,7 @@ import sys
 import requests
 
 # Si estás probando en tu ordenador:
-BASE_URL = "http://172.16.18.152:8000"
+BASE_URL = "http://127.0.0.1:8000"
 # Para probar en el ordenador de un usuario en la misma Wi-Fi, poner la IP:
 # BASE_URL = "http://192.168.1.34:8000"
 

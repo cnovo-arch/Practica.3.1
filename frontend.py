@@ -8,6 +8,7 @@ Ejecución:
 """
 import streamlit as st
 import requests
+import os
 
 st.set_page_config(
     page_title="Tienda Online • UIE",
@@ -23,7 +24,7 @@ st.set_page_config(
 st.sidebar.title("⚙️ Conexión API")
 base_url = st.sidebar.text_input(
     "URL del Servidor FastAPI",
-    value="http://localhost:8000",
+    value=os.getenv("API_URL", "http://localhost:8000"),
     help="Si conectas con otro ordenador en LAN, pon ej. http://172.16.18.152:8000"
 ).rstrip("/")
 
